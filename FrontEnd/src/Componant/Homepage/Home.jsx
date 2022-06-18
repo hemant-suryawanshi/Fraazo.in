@@ -6,7 +6,7 @@ import { MangoesCarasol } from "./Carasol/MangoCarosel";
 import { StaplesCarasol } from "./Carasol/Staples";
 import { VegitableCarasol } from "./Carasol/vegitableCarosel";
 import ProductCategory from "./ProductCategory/ProductCategory";
-import Slider from "./Slidder/slidder";
+import Slider from "./Slidder/Slidder";
 import "./Home.css";
 
 const Home = () => {

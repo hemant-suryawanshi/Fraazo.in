@@ -6,7 +6,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { AuthContextProvider } from "./Context/AuthContext";
 import { BrowserRouter } from "react-router-dom";
 import { Provider as ReduxProvider } from "react-redux";
-import { store } from "./Redux/store";
+import { store } from "./Redux/Store";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

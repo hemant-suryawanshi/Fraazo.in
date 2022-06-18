@@ -11,8 +11,8 @@ import {
   useToast,
 } from "@chakra-ui/react";
 
-import { Link, useNavigate } from "react-router-dom";
-import { CheckIcon } from "@chakra-ui/icons";
+import { useNavigate } from "react-router-dom";
+
 import { BsCreditCardFill } from "react-icons/bs";
 
 const Payment = () => {
