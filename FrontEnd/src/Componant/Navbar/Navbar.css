@@ -68,21 +68,3 @@
 #div6 > div {
   margin: 5px;
 }
-#loginrequire{
-  font-weight: 500;
-  font-size: 17px;
-  color: rgb(161, 142, 142);
-  margin: 10px;
-  margin-left: 35px;
-  display: flex;
-  align-items: center;
-}
-#loginrequire:hover{
-  color: black;
-  cursor: pointer;
-}
-#alreadylogin{
-  font-weight: 500;
-  font-size: 17px;
-  color: black;
-}

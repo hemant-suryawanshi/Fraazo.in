@@ -6,20 +6,36 @@ import {
   Input,
   Button,
   Text,
-  Radio,
-  RadioGroup,
-  Center,
   InputRightElement,
   InputGroup,
+  useToast,
 } from "@chakra-ui/react";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CheckIcon } from "@chakra-ui/icons";
 import { BsCreditCardFill } from "react-icons/bs";
 
 const Payment = () => {
   var money = JSON.parse(localStorage.getItem("FraazoCartamount"));
   var Total = Number(money) + 40;
+  const navigate = useNavigate();
+  const toast = useToast();
+  const handelComfirmation = () => {
+    var val = Math.floor(1000 + Math.random() * 9000);
+
+    toast({
+      title: "Successfull",
+      description: `Your Order Number is ${val}`,
+      status: "success",
+      duration: 9000,
+      position: "top",
+      isClosable: true,
+    });
+    let cart = [];
+    localStorage.setItem("FraazoCart", JSON.stringify(cart));
+
+    navigate("/", { replace: true });
+  };
 
   return (
     <Box id="adresspagecontainer">
@@ -90,11 +106,15 @@ const Payment = () => {
             </Box>
           </Box>
           <Box id="adresspagecontainer123">
-            <Link to="/payment">
-              <Button colorScheme={"teal"} w="339px" mt={"25px"} h="45px">
-                <Text textAlign={"right"}>Select Payment Method</Text>
-              </Button>
-            </Link>
+            <Button
+              colorScheme={"teal"}
+              w="339px"
+              mt={"25px"}
+              h="45px"
+              onClick={handelComfirmation}
+            >
+              <Text textAlign={"right"}>Confirm order</Text>
+            </Button>
           </Box>
         </Box>
       </Box>

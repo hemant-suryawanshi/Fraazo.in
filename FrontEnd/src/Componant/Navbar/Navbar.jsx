@@ -38,7 +38,7 @@ const Navbar = () => {
         <img src={img1}></img>
       </div>
 
-      <div id="div2" id={token == "" ? "loginrequire" : "alreadylogin"}>
+      <div id="div2" >
         <div id="div21">
           <ImLocation />
         </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
         <Cart />
       </div>
 
-      <div id="div5" id={token == "" ? "loginrequire" : "alreadylogin"}>
+      <div id="div5" >
         <div>
           <BiWallet />
         </div>
