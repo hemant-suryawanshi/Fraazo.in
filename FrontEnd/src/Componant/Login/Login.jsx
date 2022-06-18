@@ -37,7 +37,7 @@ function Login() {
   const [regEmail, setRegEmail] = useState("");
   const [regpassword, setRegPassword] = useState("");
 
-  const {loginAuth,logoutAuth,handelUser} = useContext(AuthContext);
+  const {loginAuth,handelUser} = useContext(AuthContext);
 
   const handelRegister = () => {
     axios({
@@ -76,6 +76,10 @@ function Login() {
           isClosable: true,
         });
       });
+      setRegFirstName("")
+      setRegLastName("")
+      setRegEmail("")
+      setRegPassword("")
   };
 
   const [logEmail, setlogEmail] = useState("");
@@ -113,6 +117,8 @@ function Login() {
           isClosable: true,
         });
       });
+      setlogEmail("")
+      setLogPassword("")
   };
 
   return (
@@ -121,7 +127,7 @@ function Login() {
         <div>
           <FaUserAlt />
         </div>{" "}
-        Login
+       Login
       </Button>
 
       {login ? (
@@ -293,5 +299,7 @@ function Login() {
     </>
   );
 }
+
+
 
 export default Login;

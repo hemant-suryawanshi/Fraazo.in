@@ -1,19 +1,5 @@
-#Container {
-  display: flex;
-  background-image: url("../../../Images/img19.svg");
-  background-repeat: no-repeat;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-bottom: 0;
-}
 
-#dowloadeappcontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
+
 #img1 {
   width: 400px;
 }
@@ -30,19 +16,8 @@
   font-weight: 600;
   font-size: xx-large;
 }
-#Container3 {
-  margin: 20px 10px;
-  padding: 10px;
-  width: fit-content;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
-  border: 1px solid #f0f0f0;
-  border-radius: 30px;
-}
-#Container31,
-#Container32 {
+
+#Container31{
   display: flex;
   align-items: center;
   gap: 5px;
@@ -51,6 +26,7 @@
   background: #000;
   border-radius: 20px;
 }
+
 #Container4 {
   display: flex;
   padding: 20px;
@@ -121,6 +97,16 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+#Container {
+  display: flex;
+  background-image: url("../../../Images/img19.svg");
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 0;
+}
+
 #footer_card_1 > div {
   width: 270px;
 }
@@ -133,6 +119,15 @@
   text-align: left;
   color: #fff;
 }
+#Container32 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  color: white;
+  background: #000;
+  border-radius: 20px;
+}
 #footer_card_12 {
   font-size: 45px;
   font-weight: 500;
@@ -140,9 +135,27 @@
   color: #fff;
 }
 
-#footer_card_2,
-#footer_Card_4,
-#footer_card_7,
+#footer_card_2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  margin-top: 15px;
+}
+#footer_Card_4{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  margin-top: 15px;
+}
+#footer_card_7{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  margin-top: 15px;
+}
 #footer_card_8 {
   display: flex;
   flex-direction: column;
@@ -154,6 +167,8 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
 }
 #footer_card_10 {
   font-size: 20px;
@@ -175,4 +190,22 @@
 #copyright {
   text-align: center;
   padding: 15px 0px;
+}
+#dowloadeappcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#Container3 {
+  margin: 20px 10px;
+  padding: 10px;
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #f0f0f0;
+  border-radius: 30px;
 }

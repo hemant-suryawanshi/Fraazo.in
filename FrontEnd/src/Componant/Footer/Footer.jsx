@@ -11,6 +11,7 @@ import img4 from "../../Images/img14.png";
 import img5 from "../../Images/img15.png";
 import img6 from "../../Images/img16.png";
 import img7 from "../../Images/img17.png";
+import { Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
@@ -92,10 +93,7 @@ const Footer = () => {
                   <HiOutlineMail id="footer_card_10" />
                   support@fraazo.com
                 </div>
-                <div className="footer_card_9">
-                  <TbPhoneCall id="footer_card_10" />
-                  +91 9152291522
-                </div>
+               
                 <div>
                   102, We Work Vijay Diamond, A3 & B2, Cross Road B, MIDC,
                   Andheri (East), Mumbai City MH 400093.

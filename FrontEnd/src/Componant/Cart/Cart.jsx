@@ -79,7 +79,7 @@ const Cart = () => {
               <Box id="cartbox">
                 <Box
                   id="cartbox1"
-                  overflow={cart.length == 6 ? "scroll" : "hidden"}
+                  overflow={cart.length >= 5 ? "scroll" : "hidden"}
                 >
                   {cart.map((ele, index) => (
                     <Box id="compbox">
@@ -108,16 +108,16 @@ const Cart = () => {
                     <p id="cartcheckouttext">₹ {sum}</p>
                   </Box>
                   <Box id="cartbox22">
-                  <Link to="/adress">
-                    <Button
-                      colorScheme={"teal"}
-                      w="185px"
-                      mt={"5px"}
-                      h="45px"
-                      onClick={andelNavigate}
-                    >
-                      CheckOut
-                    </Button>
+                    <Link to="/adress">
+                      <Button
+                        colorScheme={"teal"}
+                        w="185px"
+                        mt={"5px"}
+                        h="45px"
+                        onClick={andelNavigate}
+                      >
+                        CheckOut
+                      </Button>
                     </Link>
                   </Box>
                 </Box>

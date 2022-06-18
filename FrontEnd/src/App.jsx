@@ -8,6 +8,7 @@ import Footer from "./Componant/Footer/Footer";
 import Home from "./Componant/Homepage/Home";
 
 import Navbar from "./Componant/Navbar/Navbar";
+import { PrivateComponent } from "./Componant/PrivetComponant";
 import Product from "./Componant/Product/Product";
 
 function App() {
@@ -17,7 +18,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/product/:query" element={<Product />}></Route>
-        <Route path="/adress" element={<Address />}></Route>
+        <Route
+          path="/adress"
+          element={
+            <PrivateComponent>
+              <Address />
+            </PrivateComponent>
+          }
+        ></Route>
         <Route path="/payment" element={<Payment />}></Route>
       </Routes>
       <Footer />

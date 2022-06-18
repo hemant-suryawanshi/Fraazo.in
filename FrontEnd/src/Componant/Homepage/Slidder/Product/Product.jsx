@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
-import axios from "axios";
+
 import { useEffect } from "react";
-import { useState } from "react";
+
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { Fetchdata } from "../../Redux/Products/Action";
@@ -18,12 +18,12 @@ const Product = () => {
     window.scrollTo({
       top: 0,
     
-      behavior: "smooth"
+      behavior: "smooth",
     });
   }, [dispatch, query]);
 
   return (
-    <Box id="mainContainer">
+    <Box id="mainContainer8976">
       <Box id="Container1">
         <Sidebar />
       </Box>

@@ -10,8 +10,8 @@ export const AuthContextProvider = ({ children }) => {
   const loginAuth = (data) => {
     settoken(data);
   };
-  console.log("token", token);
-  console.log("user", user);
+  // console.log("token", token);
+  // console.log("user", user);
 
   const logoutAuth = () => {
     settoken("");
