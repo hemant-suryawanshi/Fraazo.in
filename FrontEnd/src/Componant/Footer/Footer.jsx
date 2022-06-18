@@ -3,7 +3,6 @@ import "./Footer.css";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { TbPhoneCall } from "react-icons/tb";
 import img1 from "../../Images/img11.svg";
 import img2 from "../../Images/img12.svg";
 import img3 from "../../Images/img13.png";
@@ -11,103 +10,112 @@ import img4 from "../../Images/img14.png";
 import img5 from "../../Images/img15.png";
 import img6 from "../../Images/img16.png";
 import img7 from "../../Images/img17.png";
-import { Text } from "@chakra-ui/react";
+import { Box, Button, Heading, Input, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
     <>
-      <div id="Container">
-        <div id="dowloadeappcontainer">
+      <Box id="Container">
+        <Box id="dowloadeappcontainer">
           <img src={img5} alt="img" id="img1" />
-        </div>
-        <div id="container2">
-          <h1>Download The App</h1>
-          <h3>
-            Enter your phone number to receive a text with a link to download
-            the app
-          </h3>
-          <div id="Container3">
-            <div id="Container31">
+        </Box>
+        <Box id="container2">
+          <Heading as={"h1"}>Download The App</Heading>
+          <p id="entermobiletext">Enter your phone number to receive a text</p>
+          <p id="entermobiletext">with a link to download the app</p>
+
+          <Box id="Container3">
+            <Box id="Container31">
               <FaGooglePlay />
               Android
-            </div>
-            <div id="Container32">
+            </Box>
+            <Box id="Container32">
               <FaApple />
               IPhone
-            </div>
-          </div>
-          <div id="Container4">
-            <div>+91</div>
-            <input
+            </Box>
+          </Box>
+          <Box id="Container4">
+            <Input
               type="text"
+              variant="unstyled"
               id="Container41"
               placeholder="Enter Your Mobile number"
             />
-          </div>
-          <div>
-            <button id="Container5">SUBMIT</button>
-          </div>
-          <div id="Container6">
+          </Box>
+          <Box>
+            <Button id="Container5" colorScheme={"teal"}>
+              SUBMIT
+            </Button>
+          </Box>
+          <Box id="Container6">
             Available on <img src={img6} alt="img" />
             <img src={img7} alt="img" />
-          </div>
-        </div>
-      </div>
-      <div id="Card">
-        <div id="footer_imgDiv">
+          </Box>
+        </Box>
+      </Box>
+      <Box id="Card">
+        <Box id="footer_imgDiv">
           <img src={img1} alt="img" id="footer_img" />
-        </div>
+        </Box>
 
-        <div id="Footer_Card">
-          <div >
-            <div id="footer_card_1">
-              <div id="footer_card_2">
+        <Box id="Footer_Card">
+          <Box>
+            <Box id="footer_card_1">
+              <Box id="footer_card_2">
                 <img src={img2} alt="img" id="footer_card_3" />
-                <p >
+                <p>
                   Order online vegetables & fruits directly from the farm.
                   Fraazo is online platform that allows customer to get farm
                   fresh produce directly from farmers.
                 </p>
-              </div>
-              <div id="footer_Card_4">
-                <h3 id="footer_card_5">Useful Links</h3>
-                <div>Privacy Policy</div>
-                <div>FAQ</div>
-                <div>Terms & Conditions</div>
-              </div>
-              <div id="footer_card_7">
-                <h3 id="footer_card_5">Cities We Serve</h3>
+              </Box>
+              <Box id="footer_Card_4">
+                <Heading as={"h3"} id="footer_card_5">
+                  Useful Links
+                </Heading>
+                <Box>Privacy Policy</Box>
+                <Box>FAQ</Box>
+                <Box>Terms & Conditions</Box>
+              </Box>
+              <Box id="footer_card_7">
+                <Heading as={"h3"} id="footer_card_5">
+                  Cities We Serve
+                </Heading>
 
-                <div>Mumbai</div>
-                <div>Hyderabad</div>
-                <div>Bangalore</div>
-                <div>Delhi</div>
-                <div>Noida</div>
-                <div>Gurugram</div>
-                <div>Pune</div>
-              </div>
-              <div id="footer_card_8">
-                <h3 id="footer_card_5">Connect with us</h3>
+                <Box>Pune</Box>
+                <Box>Mumbai</Box>
+                <Box>Bangalore</Box>
+                <Box>Delhi</Box>
+                <Box>Hyderabad</Box>
+                <Box>Noida</Box>
+                <Box>Gurugram</Box>
+              </Box>
+              <Box id="footer_card_8">
+                <Heading as={"h3"} id="footer_card_5">
+                  Connect with us
+                </Heading>
 
-                <div id="footer_card_9">
+                <Box id="footer_card_9">
                   <HiOutlineMail id="footer_card_10" />
                   support@fraazo.com
-                </div>
-               
-                <div>
+                </Box>
+
+                <Box>
                   102, We Work Vijay Diamond, A3 & B2, Cross Road B, MIDC,
                   Andheri (East), Mumbai City MH 400093.
-                </div>
-                <div>
-                  <h3 id="footer_card_5">Download The App</h3>
-                  <div id="footer_card_6">
+                </Box>
+                <Box>
+                  <Heading as={"h3"} id="footer_card_5">
+                    Download The App
+                  </Heading>
+                  <Box id="footer_card_6">
                     <img src={img3} alt="img" />
                     <img src={img4} alt="img" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="footer_card_11">
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+            <Box id="footer_card_11">
               <h1 id="footer_card_12">
                 Fresh Fruits & Vegetables Grocery Shopping Online
               </h1>
@@ -159,13 +167,13 @@ const Footer = () => {
                 with our Customer Support team via Chat Support or Call on
                 9152291522.
               </p>
-            </div>
-            <div id="copyright">
+            </Box>
+            <Box id="copyright">
               © Copyrights 2022-2023. Fraazo. All Rights Reserved.
-            </div>
-          </div>
-        </div>
-      </div>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
     </>
   );
 };
