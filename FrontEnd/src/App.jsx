@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
+import Address from "./Componant/Checkout/AddressPage/Address";
+import Payment from "./Componant/Checkout/PaymentPage/payment";
 import Footer from "./Componant/Footer/Footer";
 import Home from "./Componant/Homepage/Home";
 
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/product/:query" element={<Product />}></Route>
+        <Route path="/adress" element={<Address />}></Route>
+        <Route path="/payment" element={<Payment />}></Route>
       </Routes>
       <Footer />
     </div>

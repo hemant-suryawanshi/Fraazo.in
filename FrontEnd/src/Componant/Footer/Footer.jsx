@@ -4,13 +4,13 @@ import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { TbPhoneCall } from "react-icons/tb";
-import img1 from "../../Images/footer-design.svg";
-import img2 from "../../Images/fraazo-logo-white.svg";
-import img3 from "../../Images/google-play-white.png";
-import img4 from "../../Images/apple-store-white.png";
-import img5 from "../../Images/mobiles.png";
-import img6 from "../../Images/google-play.png";
-import img7 from "../../Images/apple-store.png";
+import img1 from "../../Images/img11.svg";
+import img2 from "../../Images/img12.svg";
+import img3 from "../../Images/img13.png";
+import img4 from "../../Images/img14.png";
+import img5 from "../../Images/img15.png";
+import img6 from "../../Images/img16.png";
+import img7 from "../../Images/img17.png";
 
 const Footer = () => {
   return (

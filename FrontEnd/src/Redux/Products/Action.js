@@ -17,7 +17,7 @@ export const Fetchdata = (query) => (dispatch) => {
   const getdataRequestAction = FetchDataRequest();
   dispatch(getdataRequestAction);
   axios({
-    url: `http://localhost:4800/api/${query}`,
+    url: `https://fraazomasaiapi.herokuapp.com/api/${query}`,
     method: "GET",
   })
     .then((res) => {
@@ -30,3 +30,4 @@ export const Fetchdata = (query) => (dispatch) => {
       dispatch(getdataErrorAction);
     });
 };
+// https://fraazomasaiapi.herokuapp.com/api/dryfruits

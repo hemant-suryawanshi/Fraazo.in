@@ -1,4 +1,5 @@
 import "./Cart.css";
+import { useNavigate } from "react-router-dom";
 import {
   Box,
   Button,
@@ -12,12 +13,13 @@ import {
 } from "@chakra-ui/react";
 import { BsCart3 } from "react-icons/bs";
 
-import img1 from "../../Images/empty-cart.png";
-import { useEffect } from "react";
+import img1 from "../../Images/img18.png";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Cart = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const navigate = useNavigate();
 
   const [state, setState] = useState(true);
   var cart;
@@ -34,9 +36,14 @@ const Cart = () => {
     setState(!state);
   };
 
+  const andelNavigate = () => {
+    localStorage.setItem("FraazoCartamount", JSON.stringify(sum));
+    onClose();
+  };
+
   return (
     <>
-      <Button onClick={onOpen} key="sm" m={4}>
+      <Button onClick={onOpen} key="sm" m={"0"} p={"10px"}>
         <div>
           <BsCart3 />
         </div>{" "}
@@ -101,9 +108,17 @@ const Cart = () => {
                     <p id="cartcheckouttext">₹ {sum}</p>
                   </Box>
                   <Box id="cartbox22">
-                    <Button colorScheme={"teal"} w="185px" mt={"5px"} h="45px">
+                  <Link to="/adress">
+                    <Button
+                      colorScheme={"teal"}
+                      w="185px"
+                      mt={"5px"}
+                      h="45px"
+                      onClick={andelNavigate}
+                    >
                       CheckOut
                     </Button>
+                    </Link>
                   </Box>
                 </Box>
               </Box>

@@ -41,7 +41,7 @@ function Login() {
 
   const handelRegister = () => {
     axios({
-      url: "http://localhost:4800/api/signup",
+      url: "https://fraazomasaiapi.herokuapp.com/api/signup",
       method: "POST",
       data: {
         firstname: regfirstName,
@@ -83,7 +83,7 @@ function Login() {
 
   const handelLogin = () => {
     axios({
-      url: "http://localhost:4800/api/signin",
+      url: "https://fraazomasaiapi.herokuapp.com/api/signin",
       method: "POST",
       data: {
         email: logEmail,
@@ -117,7 +117,7 @@ function Login() {
 
   return (
     <>
-      <Button onClick={onOpen} id="mainid">
+      <Button onClick={onOpen} id="mainid" m={"0"} p="10px" >
         <div>
           <FaUserAlt />
         </div>{" "}

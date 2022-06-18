@@ -1,10 +1,10 @@
 import React from "react";
 import "./Slidder.css";
 
-import Left1 from "../../../Images/advertise1.png";
-import Left2 from "../../../Images/advertise2.png";
-import Left3 from "../../../Images/advertise3.png";
-import Right from "../../../Images/banner1.png";
+import Left1 from "../../../Images/img7.png";
+import Left2 from "../../../Images/img8.png";
+import Left3 from "../../../Images/img9.png";
+import Right from "../../../Images/img10.png";
 
 const Slider = () => {
   return (

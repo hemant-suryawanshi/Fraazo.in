@@ -31,6 +31,6 @@ app.use("/api/mangos", MangosController);
 app.use("/api/kitchenstaples", StaplesController);
 app.use("/api/vegitables", VegitableController);
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 4800, () => {
   console.log("conected to 4800");
 });
