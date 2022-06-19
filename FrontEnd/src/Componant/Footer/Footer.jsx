@@ -21,15 +21,17 @@ const Footer = () => {
         </Box>
         <Box id="container2">
           <Heading as={"h1"}>Download The App</Heading>
-          <p id="entermobiletext">Enter your phone number to receive a text</p>
-          <p id="entermobiletext">with a link to download the app</p>
+          <Text id="downloadtext">
+            Enter your phone number to receive a text
+          </Text>
+          <Text id="downloadtext">with a link to download the app</Text>
 
           <Box id="Container3">
-            <Box id="Container31">
+            <Box id="Container31" rounded={"full"}>
               <FaGooglePlay />
               Android
             </Box>
-            <Box id="Container32">
+            <Box id="Container32" rounded={"full"}>
               <FaApple />
               IPhone
             </Box>
@@ -63,11 +65,11 @@ const Footer = () => {
             <Box id="footer_card_1">
               <Box id="footer_card_2">
                 <img src={img2} alt="img" id="footer_card_3" />
-                <p>
-                  Order online vegetables & fruits directly from the farm.
+                <Text>
+                  Order online vegetables and fruits directly from the farm.
                   Fraazo is online platform that allows customer to get farm
                   fresh produce directly from farmers.
-                </p>
+                </Text>
               </Box>
               <Box id="footer_Card_4">
                 <Heading as={"h3"} id="footer_card_5">
@@ -75,7 +77,7 @@ const Footer = () => {
                 </Heading>
                 <Box>Privacy Policy</Box>
                 <Box>FAQ</Box>
-                <Box>Terms & Conditions</Box>
+                <Box>Terms and Conditions</Box>
               </Box>
               <Box id="footer_card_7">
                 <Heading as={"h3"} id="footer_card_5">
@@ -101,7 +103,7 @@ const Footer = () => {
                 </Box>
 
                 <Box>
-                  102, We Work Vijay Diamond, A3 & B2, Cross Road B, MIDC,
+                  102, We Work Vijay Diamond, A3 and B2, Cross Road B, MIDC,
                   Andheri (East), Mumbai City MH 400093.
                 </Box>
                 <Box>
@@ -116,10 +118,10 @@ const Footer = () => {
               </Box>
             </Box>
             <Box id="footer_card_11">
-              <h1 id="footer_card_12">
-                Fresh Fruits & Vegetables Grocery Shopping Online
-              </h1>
-              <p>
+              <Heading as={"h1"} id="footer_card_12">
+                Fresh Fruits and Vegetables Grocery Shopping Online
+              </Heading>
+              <Text>
                 The quality of fruits & vegetables is synonymous with its
                 freshness, while getting fresh fruits and vegetables is a
                 tedious task at times but with Fraazo you can get it delivered
@@ -144,8 +146,8 @@ const Footer = () => {
                 produce straight from farm to table in less than 12 hours. With
                 our Safe & Hygienic packaging and minimal multiple handling, we
                 ensure you get the best quality fresh produce.
-              </p>
-              <p>
+              </Text>
+              <Text>
                 The fruits and vegetables are 100% hand-picked fresh from farm,
                 while some products are hydroponically-grown. The wide range of
                 fruits and veggies on Fraazo include more than 100+ farm fresh
@@ -166,7 +168,7 @@ const Footer = () => {
                 product with “no-questions-asked-policy”. You can simply connect
                 with our Customer Support team via Chat Support or Call on
                 9152291522.
-              </p>
+              </Text>
             </Box>
             <Box id="copyright">
               © Copyrights 2022-2023. Fraazo. All Rights Reserved.

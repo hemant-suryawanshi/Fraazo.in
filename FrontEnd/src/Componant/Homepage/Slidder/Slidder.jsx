@@ -5,25 +5,26 @@ import img4 from "../../../Images/img10.png";
 import img1 from "../../../Images/img7.png";
 import img3 from "../../../Images/img9.png";
 import img2 from "../../../Images/img8.png";
+import { Box } from "@chakra-ui/react";
 
 const Slider = () => {
   return (
-    <div id="slider">
-      <div id="left-slider">
-        <img src={img4} alt="slider" id="home_slider_img" />
-      </div>
-      <div id="right-slider">
-        <div id="right-slider-1">
+    <Box id="slider">
+      <Box id="left-slider">
+        <img src={img4} alt="slider" />
+      </Box>
+      <Box id="right-slider">
+        <Box id="right-slider-1">
           <img src={img1} alt="slider" id="leftimg" />
-        </div>
-        <div id="right-slider-2">
+        </Box>
+        <Box id="right-slider-2">
           <img src={img2} alt="slider" id="leftimg" />
-        </div>
-        <div id="right-slider-3">
+        </Box>
+        <Box id="right-slider-3">
           <img src={img3} alt="slider" id="leftimg" />
-        </div>
-      </div>
-    </div>
+        </Box>
+      </Box>
+    </Box>
   );
 };
 

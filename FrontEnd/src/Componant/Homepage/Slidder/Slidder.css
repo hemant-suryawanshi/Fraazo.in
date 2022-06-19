@@ -3,7 +3,6 @@
   width: 100%;
   gap: 30px;
   margin-top: 15px;
-
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -17,12 +16,10 @@
     width: 65%;
     display: flex;
     align-items: center;
-   
+   justify-content: center;
   }
 #leftimg {
   width: 100%;
- 
-
 }
 
 #right-slider-1 {
