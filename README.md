@@ -53,37 +53,38 @@ _Or you can directly explore our project through this link_
  
  ### _Following are the Screenshots for the reference_
 
-<!-- - **Landing Page**
-  ![Landing Page](IMAGES/Landing Page.png)
+- **Landing Page**
+  ![Landing Page](IMAGES/Landing.png)
 
 - **Product Page**
 
-  ![Product Page](https://miro.medium.com/max/940/1*5HafmzQ-Z4ySizSHgx_TUQ.png)
+  ![Product Page](IMAGES/product.png)
 
-- **Product-details Page**
-
-  ![Product-details Page](https://miro.medium.com/max/1400/1*vDtXNb8Ylet-4ikgvHtknQ.png)
 
 - **Cart-Page**
 
-  ![Cart-Page](https://miro.medium.com/max/1400/1*ctMmSn6msr_SwWDU8YTKig.png)
+  ![Cart-Page](IMAGES/Cart.png)
+  
+- **Sign-In Page**
+
+  ![Sign-In Page](IMAGES/Login.png)
+  
+- **Sign-up Page**
+
+  ![Sign-In Page](IMAGES/Signup.png)
 
 - **Checkout Page**
 
-  ![Checkout Page](https://miro.medium.com/max/1400/1*pQiczrwkoRosV5QUJEr5Vg.png)
+  ![Checkout Page](IMAGES/checkout1.png)
   
-
-- **Sign-In Page**
-
-  ![Sign-In Page](https://miro.medium.com/max/1400/1*A2cMBrWWvcafYev5_zC3DA.png)
 
 - **Payment Page**
 
-  ![Payment Page](https://miro.medium.com/max/1400/1*aBg4DT5IG4JAFJ68pwQGqA.png)
+  ![Payment Page](IMAGES/checkout2.png)
 
 
 ---
- -->
+
 ### About Project
 
 > I did this project within 5 days in our unit-5 construct week. I worked on backend & frontend parts with includes various types of libraries into it and I have also added database for our project so user and product details will be saved and can be used accordingly. I have also add some cool functionality in our product page where you can filter and sort the product according to your choice and user can Signup and Login to buy the products.
