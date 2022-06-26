@@ -53,8 +53,8 @@ _Or you can directly explore our project through this link_
  
  ### _Following are the Screenshots for the reference_
 
-- **Landing Page**
-  ![Landing Page](https://miro.medium.com/max/1400/1*UB-C6C9NNV3udcmNFoyOBg.png)
+<!-- - **Landing Page**
+  ![Landing Page](IMAGES/Landing Page.png)
 
 - **Product Page**
 
@@ -83,7 +83,7 @@ _Or you can directly explore our project through this link_
 
 
 ---
-
+ -->
 ### About Project
 
 > I did this project within 5 days in our unit-5 construct week. I worked on backend & frontend parts with includes various types of libraries into it and I have also added database for our project so user and product details will be saved and can be used accordingly. I have also add some cool functionality in our product page where you can filter and sort the product according to your choice and user can Signup and Login to buy the products.
