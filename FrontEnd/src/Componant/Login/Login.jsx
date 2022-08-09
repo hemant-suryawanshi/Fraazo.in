@@ -14,7 +14,6 @@ import {
   ModalHeader,
   ModalOverlay,
   Stack,
-  useColorModeValue,
   useDisclosure,
   InputGroup,
   Text,
@@ -144,7 +143,6 @@ function Login() {
             <ModalCloseButton />
             <Box
               rounded={"lg"}
-              bg={useColorModeValue("white", "gray.700")}
               boxShadow={"lg"}
               p={8}
               marginTop="0"
@@ -211,7 +209,6 @@ function Login() {
             <ModalCloseButton />
             <Box
               rounded={"lg"}
-              bg={useColorModeValue("white", "gray.700")}
               boxShadow={"lg"}
               p={8}
               marginTop="0"
